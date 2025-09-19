@@ -2,7 +2,7 @@
 DB_HOST=localhost
 DB_USER=x
 DB_PASS=1234
-DB_NAME=x-lite
+DB_NAME=x
 
 for file in init/*.sql; do
   echo "Applying $file..."
